@@ -1,0 +1,113 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3e6ff;
+    color: #3c0a60;
+}
+
+header {
+    background-color: #5a1ea0;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+#hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, #7d3aff, #b366ff);
+    color: white;
+}
+
+#hero button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #5a1ea0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#hero button:hover {
+    background-color: #e0ccff;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #d9b3ff;
+    padding: 20px;
+    border-radius: 12px;
+    width: 250px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #5a1ea0;
+}
+
+form button {
+    background-color: #5a1ea0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background-color: #7d3aff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #5a1ea0;
+    color: #fff;
+}
